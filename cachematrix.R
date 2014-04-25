@@ -1,7 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## function: makeCacheMatrix - this function returns a list which enables the user
+##                      to get, set a matrix and it's inverse
+## function: cacheSolve - retrieves an objects inverse or calculates and then returns
+#                       an objects inverse
 
-## Write a short comment describing this function
+## makeCacheMatrix - takes in a matrix and stores it returning a list with other 
+##      functions to operate on the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   ## set up local inverse variable that (using R's cooky scoping rules) will hold
